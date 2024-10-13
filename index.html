@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads or Tails</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="heads.png" as="image">
+    <link rel="preload" href="tails.png" as="image">
+</head>
+<body>
+    <div class="container">
+        <h1>Heads or Tails?</h1>
+        <div class="coin" id="coin">
+            <img id="coin-image" src="heads.png" alt="Coin">
+        </div>
+        <button id="flip-button">Flip Coin</button>
+        <div id="result-cloud" class="cloud">
+            <p id="result">Click to flip the coin!</p>
+        </div>
+        <canvas id="confetti-canvas"></canvas> <!-- Confetti Effect -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
